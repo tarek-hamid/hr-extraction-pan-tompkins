@@ -17,7 +17,7 @@ Seminal work:
 
 Pan, Jiapu; Tompkins, Willis J. (March 1985). "A Real-Time QRS Detection Algorithm". IEEE Transactions on Biomedical Engineering. BME-32 (3): 230–236. doi:10.1109/TBME.1985.325532. PMID 3997178.
 
-I found the Wiki article on the topic to be extremely helpful is understanding background and algorithm implementation: 
+I found the Wiki article on the topic to be extremely helpful in understanding background and algorithm implementation: 
 
 https://en.wikipedia.org/wiki/Pan%E2%80%93Tompkins_algorithm
 
@@ -27,7 +27,15 @@ https://en.wikipedia.org/wiki/Pan%E2%80%93Tompkins_algorithm
 There are two main files of interest in the repository: 
 
 1. pantompkins.py - Python script with methods used to implement the Pan Tompkins algorithm
-2. test_pan_tompkins.pynb - Jupyter notebook with the algorithm implemented on Data sourced from PhysioNet (https://physionet.org/content/mitdb/1.0.0/).
+2. test_pan_tompkins.pynb - Jupyter notebook with the algorithm implemented on data sourced from PhysioNet (https://physionet.org/content/mitdb/1.0.0/).
+
+## TODO
+
+1. Create Python package
+2. Create 200ms delay if a peak is detected (lockout time due to physiological refractory period in which vertricular depolarization cannot occur)
+3. Create adaptive thresholds based on surrounding noise
+4. Search for missed QRS complexes based on adaptive threshold
+5. Check for T wave discrimination
 
 ## Questions?
 
