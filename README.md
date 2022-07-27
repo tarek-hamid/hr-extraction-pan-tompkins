@@ -10,12 +10,16 @@ The Pan Tompkins algorithm is a useful and widely used algorithm to extract hear
 4. Use moving window integration to smooth the signal.
 
 An in-depth explanation of my personal implementation can be found on my personal porfolio:
+
 https://tarek-hamid.github.io/ecg-heart-rate/index.html
 
 Seminal work:
+
 Pan, Jiapu; Tompkins, Willis J. (March 1985). "A Real-Time QRS Detection Algorithm". IEEE Transactions on Biomedical Engineering. BME-32 (3): 230–236. doi:10.1109/TBME.1985.325532. PMID 3997178.
 
-I found the Wiki article on the topic to be extremely helpful is understanding background and algorithm implementation: https://en.wikipedia.org/wiki/Pan%E2%80%93Tompkins_algorithm
+I found the Wiki article on the topic to be extremely helpful is understanding background and algorithm implementation: 
+
+https://en.wikipedia.org/wiki/Pan%E2%80%93Tompkins_algorithm
 
 
 ## Repository lay-out
