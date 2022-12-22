@@ -7,6 +7,9 @@ from scipy.ndimage import uniform_filter1d
 The following functions are used to compute heart rate using the Pan-Tompkins algorithm. 
 Please find more background information here: www.github.com/tarek-hamid/hr-extraction-pan-tompkins
 
+Derivative and square functions are separated into their own functions despite using numpy packages as additional measures can be used to make the
+calculations more robust.
+
 Seminal work: 
     Pan, Jiapu; Tompkins, Willis J. (March 1985). "A Real-Time QRS Detection Algorithm". IEEE Transactions on Biomedical Engineering. BME-32 (3): 230–236. doi:10.1109/TBME.1985.325532
 
